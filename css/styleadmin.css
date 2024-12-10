@@ -1,0 +1,191 @@
+/* General */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #f3e5f5;
+    color: #4A148C;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #6A1B9A;
+    margin-top: 20px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #6A1B9A, #9b6aa3);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    color: #fff;
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #d8aed4;
+}
+
+a.cerrar-sesion {
+    background-color: #d8aed4;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+a.cerrar-sesion:hover {
+    background-color: #ba68c8;
+}
+
+/* Tabla */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+table thead {
+    background-color: #6A1B9A;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    font-weight: bold;
+}
+
+table td img {
+    width: 60px;
+    height: auto;
+    border-radius: 5px;
+}
+
+table tr:hover {
+    background-color: #f9f1fa;
+}
+
+/* Botones de acción */
+table a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+}
+
+table a[href*="editar"] {
+    background-color: #5cb85c;
+}
+
+table a[href*="editar"]:hover {
+    background-color: #4cae4c;
+}
+
+table a[href*="delete"] {
+    background-color: #d9534f;
+}
+
+table a[href*="delete"]:hover {
+    background-color: #c9302c;
+}
+
+/* Formulario */
+form {
+    width: 90%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #6A1B9A;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #9b6aa3;
+}
+
+/* Footer */
+footer {
+    background-color: #6A1B9A;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px 10px 0 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer .social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+    color: #d8aed4;
+}
