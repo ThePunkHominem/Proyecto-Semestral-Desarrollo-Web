@@ -4,18 +4,19 @@ Realizado por Blas Batista y Daneth Serracin.
 Este proyecto es un sistema web dinámico desarrollado como parte de la materia de Desarrollo Web. Su objetivo es simular la página oficial de Miss Universo Panamá, integrando funcionalidades como registro de usuarios, gestión de productos y un carrito de compras. Está diseñado para brindar una experiencia visual atractiva y una arquitectura funcional, incorporando conceptos básicos de seguridad y buenas prácticas.
 
 Características principales:
+
 Interfaz de usuario:
 
 Inicio de sesión y registro de nuevos usuarios.
 Página de inicio con información destacada sobre Miss Universo Panamá.
 Sección de misión, visión y valores de la organización.
 Página de productos con carrito de compras funcional.
-Panel de administración:
 
+Panel de administración:
 Gestión de productos: agregar, editar y eliminar artículos.
 Visualización de datos almacenados en la base de datos.
-Tecnologías utilizadas:
 
+Tecnologías utilizadas:
 Backend: PHP 8.3 con MariaDB como sistema de gestión de bases de datos.
 Frontend: HTML, CSS, JavaScript.
 Servidor web: Apache 2.4.
